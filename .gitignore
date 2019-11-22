@@ -1,0 +1,9 @@
+compiler.*
+misc.*
+vcs.*
+modules.*
+*.iml
+*.class
+*.log
+workspace.*
+.idea

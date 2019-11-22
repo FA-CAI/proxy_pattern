@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.zk.gupao.factory_pattern.factoryMethod.RectangleFactory</OriginalElement>
+  <nodes>
+    <node x="193.0" y="0.0">com.zk.gupao.factory_pattern.simpleFactory.Shape</node>
+    <node x="0.0" y="87.0">com.zk.gupao.factory_pattern.factoryMethod.IShapeFactory</node>
+    <node x="300.3125" y="174.0">com.zk.gupao.factory_pattern.simpleFactory.ShapeFactory</node>
+    <node x="68.13749999999999" y="174.0">com.zk.gupao.factory_pattern.factoryMethod.SquareFactory</node>
+    <node x="324.0" y="87.0">com.zk.gupao.factory_pattern.simpleFactory.Rectangle</node>
+    <node x="190.0" y="87.0">com.zk.gupao.factory_pattern.simpleFactory.Square</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zk.gupao.factory_pattern.factoryMethod.IShapeFactory" target="com.zk.gupao.factory_pattern.simpleFactory.Shape">
+      <point x="0.0" y="-18.5" />
+      <point x="84.5" y="57.0" />
+      <point x="203.8" y="57.0" />
+      <point x="-43.19999999999999" y="18.5" />
+    </edge>
+    <edge source="com.zk.gupao.factory_pattern.simpleFactory.ShapeFactory" target="com.zk.gupao.factory_pattern.simpleFactory.Rectangle">
+      <point x="0.0" y="-18.5" />
+      <point x="382.3125" y="149.0" />
+      <point x="392.0" y="149.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="com.zk.gupao.factory_pattern.simpleFactory.ShapeFactory" target="com.zk.gupao.factory_pattern.simpleFactory.Square">
+      <point x="-54.66666666666666" y="-18.5" />
+      <point x="327.64583333333337" y="149.0" />
+      <point x="275.5" y="149.0" />
+      <point x="28.5" y="18.5" />
+    </edge>
+    <edge source="com.zk.gupao.factory_pattern.simpleFactory.Rectangle" target="com.zk.gupao.factory_pattern.simpleFactory.Shape">
+      <point x="0.0" y="-18.5" />
+      <point x="392.0" y="67.0" />
+      <point x="268.6" y="67.0" />
+      <point x="21.599999999999994" y="18.5" />
+    </edge>
+    <edge source="com.zk.gupao.factory_pattern.factoryMethod.SquareFactory" target="com.zk.gupao.factory_pattern.factoryMethod.IShapeFactory">
+      <point x="-56.66666666666663" y="-18.5" />
+      <point x="96.47083333333336" y="149.0" />
+      <point x="84.5" y="149.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="com.zk.gupao.factory_pattern.simpleFactory.ShapeFactory" target="com.zk.gupao.factory_pattern.simpleFactory.Shape">
+      <point x="54.66666666666666" y="-18.5" />
+      <point x="436.97916666666663" y="149.0" />
+      <point x="470.5" y="149.0" />
+      <point x="470.5" y="57.0" />
+      <point x="290.2" y="57.0" />
+      <point x="43.19999999999999" y="18.5" />
+    </edge>
+    <edge source="com.zk.gupao.factory_pattern.factoryMethod.SquareFactory" target="com.zk.gupao.factory_pattern.simpleFactory.Square">
+      <point x="56.666666666666686" y="-18.5" />
+      <point x="209.80416666666667" y="149.0" />
+      <point x="218.5" y="149.0" />
+      <point x="-28.5" y="18.5" />
+    </edge>
+    <edge source="com.zk.gupao.factory_pattern.factoryMethod.SquareFactory" target="com.zk.gupao.factory_pattern.simpleFactory.Shape">
+      <point x="0.0" y="-18.5" />
+      <point x="153.1375" y="149.0" />
+      <point x="179.5" y="149.0" />
+      <point x="179.5" y="67.0" />
+      <point x="225.4" y="67.0" />
+      <point x="-21.599999999999994" y="18.5" />
+    </edge>
+    <edge source="com.zk.gupao.factory_pattern.simpleFactory.Square" target="com.zk.gupao.factory_pattern.simpleFactory.Shape">
+      <point x="0.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="235.5" y="105.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

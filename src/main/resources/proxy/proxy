@@ -1,0 +1,7 @@
+CGLib和JDK动态代理对比
+1.JDK动态代理是实现了被代理对象的接口，CGLib是继承了 被代理对象。
+2.JDK和CGLib都是在运行期生成字节码，JDK是直接写Class 字节码，CGLib使用ASM框架写Class字节码，Cglib代理实现 更复杂，生成代理类比JDK效率低。
+3.JDK调用代理方法，是通过反射机制调用，CGLib是通过 FastClass机制直接调用方法，CGLib执行效率更高
+
+为什么JDK动态代理中要求目标类实现的接口数量不能超过65535个？
+参考：https://blog.csdn.net/u010577768/article/details/80292857
